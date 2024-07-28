@@ -102,10 +102,10 @@ while True:
 
     out.write(img)
 
-    # cv2.imshow('Image', img)
-    # key = cv2.waitKey(1)
-    # if key == ord('q'):
-    #     break
+    cv2.imshow('Image', img)
+    key = cv2.waitKey(1)
+    if key == ord('q'):
+        break
 
     # with open('test_animation.txt', 'w') as f:
     #     f.writelines(['%s\n' % item for item in posList])
